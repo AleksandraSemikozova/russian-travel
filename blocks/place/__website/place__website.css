@@ -1,11 +1,11 @@
 .place__website {
-  width: 45%;
-  align-self: center;
+  grid-area: website;
+  align-self: end;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
   .place__website {
-    width: 90%;
-    margin: 32px 0;
+    padding-left: 16px;
   }
 }
+

@@ -1,21 +1,27 @@
 .place {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 100%;
-  box-sizing: border-box;
-  margin: 0 48px 80px;
+  display: grid;
+  grid-template-areas:
+    'title website'
+    'image description';
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px 5%;
+  margin-bottom: 73px;
 }
 
-@media screen and (max-width: 768px) {
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
   .place {
-    margin: 0 24px 73px;
+    grid-template-areas:
+      'title'
+      'website'
+      'image'
+      'description';
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    margin-bottom: 50px;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .place {
-    flex-direction: column;
-    margin: 0 0 50px;
-  }
-}

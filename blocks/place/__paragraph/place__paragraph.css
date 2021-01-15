@@ -1,24 +1,11 @@
 .place__paragraph {
   margin: 0 0 26px 0;
+  padding: 0 16px 0;
 }
 
-.place__paragraph:last-of-type {
+.place__paragraph:last-child {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    margin-bottom: 25px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .place__paragraph {
-    margin: 0 auto 25px;
-  }
-  .place__paragraph:first-of-type {
-    margin-top: 32px;
-  }
-}
 
 
