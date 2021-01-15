@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -26,25 +28,22 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link-list/footer__link-list.css);
 
 
 
 
 
 
-.page {
 
-    background-color: #2A2C2F;
 
-}
 
-.page__container {
-  max-width: 1280px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  font-family: 'Inter';
-  font-style:  normal;
-  color: #fff;
-}
+
+
