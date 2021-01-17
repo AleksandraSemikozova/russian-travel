@@ -2,13 +2,13 @@
   max-width: min-content;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.2;
+  line-height: 1;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 32px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__title {
     font-size: 56px;
   }

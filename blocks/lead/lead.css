@@ -1,5 +1,18 @@
 .lead {
   color: #fff;
   max-width: 984px;
-  margin: 56px auto 0;
+  margin: 56px 148px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    margin: 48px 48px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    margin: 48px auto 0;
+  }
 }
